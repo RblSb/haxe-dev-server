@@ -1,0 +1,11 @@
+--class-path src
+--library hxnodejs
+--library hxnodejs-ws:git:https://github.com/haxe-externs/hxnodejs-ws.git
+--library chokidar-externs:git:https://github.com/haxe-externs/chokidar-externs.git
+-D analyzer-optimize
+--dce full
+--main HaxeDevServer
+--js build/index.js
+-D source-header=
+--macro includeFile("res/shebang.js")
+--cmd chmod +x build/index.js

@@ -1,0 +1,13 @@
+{
+	"[haxe]": {
+			"editor.formatOnSave": true,
+			"editor.formatOnPaste": false
+	},
+	"editor.codeActionsOnSave": {
+		"source.sortImports": "explicit",
+		"source.fixAll": "explicit"
+	},
+	"search.exclude": {
+		"build": true
+	}
+}

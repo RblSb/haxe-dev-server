@@ -1,0 +1,19 @@
+{
+  "name": "haxe-dev-server",
+  "version": "1.0.0",
+  "description": "Haxe dev server with live reload.",
+  "license": "MIT",
+  "author": "RblSb",
+  "type": "commonjs",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "haxe-dev-server": "build/index.js"
+  },
+  "dependencies": {
+    "chokidar": "^4.0.3",
+    "ws": "^8.18.3"
+  }
+}
